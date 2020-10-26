@@ -22,7 +22,6 @@ submit.addEventListener("click", (e) => {
     const description = form.description.value;
     const time = form.time.value;
     if (title.length && description.length && time.length) {
-        console.log(title, description, time);
         genarateTemplate(title, description, time);
     }
 })
